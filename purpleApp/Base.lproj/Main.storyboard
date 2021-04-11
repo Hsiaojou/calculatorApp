@@ -36,6 +36,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="allClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P59-87-12X"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykY-9a-JwU">
                                                 <rect key="frame" x="132" y="0.0" width="126" height="103.33333333333333"/>
@@ -44,6 +47,9 @@
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="reminder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GuY-dA-Bm3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pk8-Rh-YhG">
                                                 <rect key="frame" x="264" y="0.0" width="126" height="103.33333333333333"/>
@@ -52,6 +58,9 @@
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAm-TK-kVy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -98,6 +107,9 @@
                                                 <state key="normal" title="*">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IdN-oa-RTh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -144,6 +156,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vEL-PZ-jCF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -190,6 +205,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCb-Zq-L7u"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -214,6 +232,9 @@
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E2g-Cu-07a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybd-Yp-n8q">
                                                 <rect key="frame" x="264" y="0.0" width="126" height="103.33333333333333"/>
@@ -222,6 +243,9 @@
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="gimmeAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PLx-le-Kwv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -245,7 +269,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="wnd-er-bQf" id="Cxb-LJ-TsR"/>
+                        <outlet property="label" destination="wnd-er-bQf" id="BCW-Lm-VYc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
